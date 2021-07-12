@@ -3,7 +3,7 @@
     <div class="gaussianFilter">
       <div class="theory">
         <div style="margin-bottom: 10px;"><h4>Filtro Gaussiano</h4>
-          <p>Los valores del filtro se obtienen de evaluacr la función Gaussian</p>
+          <p>Los valores del filtro se obtienen de evaluar la función Gaussian</p>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 60" height="60" width="210" style="margin: auto;">
             <rect x="0" y="0" width="210" height="60" fill="#ccc" stroke="#fff"/>
             <g transform="translate(0,-15)">
@@ -19,14 +19,14 @@
               <text x="155" y="40" font-size="15" fill="black">x + y</text>
               <text x="162" y="35" font-size="10" fill="black">2</text>
               <text x="188" y="35" font-size="10" fill="black">2</text>
-              <text x="157" y="60" font-size="15" fill="black">2πσ</text>
+              <text x="157" y="60" font-size="15" fill="black">2σ</text>
               <text x="183" y="55" font-size="10" fill="black">2</text>
               <text x="200" y="55" font-size="35" fill="black">)</text>
             </g>
           </svg>
         </div>
         <div style="margin-top: -30px;">
-          <h5>Details</h5>
+          <h5>Detalles</h5>
           <p style="margin-top: -25px;">Despues de calcular los valores de la función gaussiana se debe normalizar.</p>
           <p style="margin-top: -15px;">Primero se suman los elementos resultado de la función Gaussiana.</p>
           <p style="margin-top: -15px;">La normalización del filtro se hace dividiendo cada elemento entre la suma de todos los elementos.</p>
